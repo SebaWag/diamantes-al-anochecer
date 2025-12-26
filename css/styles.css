@@ -1,0 +1,253 @@
+/* Reset y base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #f5f5f0;
+    color: #2c2c2c;
+    line-height: 1.6;
+}
+
+/* Header estilo periódico/boletín */
+.header {
+    background-color: #1a1a1a;
+    color: #f5f5f0;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 4px double #c4a35a;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.subtitulo {
+    font-style: italic;
+    color: #c4a35a;
+    font-size: 1.1rem;
+}
+
+.volver {
+    display: inline-block;
+    color: #c4a35a;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.volver:hover {
+    text-decoration: underline;
+}
+
+/* Container principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    font-size: 1.1rem;
+    color: #4a4a4a;
+}
+
+/* Buscador */
+.filtros {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#buscador {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 2px solid #1a1a1a;
+    background: #fff;
+}
+
+#buscador:focus {
+    outline: none;
+    border-color: #c4a35a;
+}
+
+/* Grid de boletines */
+.boletines-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Tarjeta de boletín */
+.boletin-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.boletin-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.boletin-card-header {
+    background: #1a1a1a;
+    color: #f5f5f0;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boletin-numero {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.boletin-fecha {
+    font-size: 0.85rem;
+    color: #c4a35a;
+}
+
+.boletin-card-body {
+    padding: 1rem;
+}
+
+.boletin-resultado {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.boletin-resultado .equipo-rojo {
+    color: #c41e3a;
+}
+
+.boletin-resultado .equipo-azul {
+    color: #1e4a8c;
+}
+
+.boletin-destacado {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Visor de boletín individual */
+.boletin-viewer {
+    text-align: center;
+}
+
+.boletin-info {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.boletin-info h2 {
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.pdf-container {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 1.5rem;
+}
+
+.pdf-container iframe {
+    width: 100%;
+    height: 80vh;
+    min-height: 600px;
+}
+
+/* Navegación entre boletines */
+.navegacion-boletines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn-nav {
+    padding: 0.7rem 1.5rem;
+    background: #1a1a1a;
+    color: #f5f5f0;
+    text-decoration: none;
+    font-family: inherit;
+    transition: background 0.2s;
+}
+
+.btn-nav:hover {
+    background: #333;
+}
+
+.btn-nav.disabled {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.btn-descargar {
+    padding: 0.7rem 1.5rem;
+    background: #c4a35a;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-descargar:hover {
+    background: #d4b36a;
+}
+
+/* Footer */
+.footer {
+    background: #1a1a1a;
+    color: #888;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .boletines-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .navegacion-boletines {
+        flex-direction: column;
+    }
+}
+
+/* Estado vacío */
+.sin-resultados {
+    text-align: center;
+    padding: 3rem;
+    color: #888;
+    font-style: italic;
+}
