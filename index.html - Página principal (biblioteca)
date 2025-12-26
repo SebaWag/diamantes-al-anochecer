@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamantes al Anochecer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Diamantes al Anochecer</h1>
+        <p class="subtitulo">La pichanga de los lunes</p>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <p>Bienvenidos a la biblioteca de boletines de nuestra querida pichanga. Aquí encontrarás la crónica de cada partido, los goles, las jugadas memorables y los protagonistas de cada noche.</p>
+        </section>
+
+        <section class="filtros">
+            <input type="text" id="buscador" placeholder="Buscar por fecha, jugador, resultado...">
+        </section>
+
+        <section class="boletines-grid" id="boletines-container">
+            <!-- Los boletines se cargan dinámicamente -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Diamantes al Anochecer © 2024 - Todos los lunes, llueva o truene</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
