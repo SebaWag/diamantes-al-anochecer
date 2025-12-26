@@ -6,7 +6,7 @@
             "golesRojos": 3,
             "golesAzules": 6,
             "destacado": "Debut con lluvia y dominio Azul categórico",
-            "archivo": "boletines/pdfs/boletin-001.pdf",
+            "archivo": "boletines/boletin-001.pdf.pdf",
             "keywords": ["Gonzalo", "VAR localista", "Edu", "Horst", "Luchito", "Marcos", "Carl", "Joaco", "lluvia", "debut"]
         },
         {
@@ -15,7 +15,7 @@
             "golesRojos": 3,
             "golesAzules": 6,
             "destacado": "Marcos y Luis: sociedad letal goleadora",
-            "archivo": "boletines/pdfs/boletin-002.pdf",
+            "archivo": "boletines/boletin-002.pdf.pdf",
             "keywords": ["Marcos", "Luis", "Andrés", "lesión", "goleada"]
         },
         {
@@ -24,7 +24,7 @@
             "golesRojos": 4,
             "golesAzules": 5,
             "destacado": "Polémico arbitraje anula gol del empate",
-            "archivo": "boletines/pdfs/boletin-003.pdf",
+            "archivo": "boletines/boletin-003.pdf.pdf",
             "keywords": ["Pato", "gol olímpico", "árbitro", "Fabián", "polémica"]
         },
         {
@@ -33,7 +33,7 @@
             "golesRojos": 6,
             "golesAzules": 3,
             "destacado": "Horst y Fabián, dupla imparable",
-            "archivo": "boletines/pdfs/boletin-004.pdf",
+            "archivo": "boletines/boletin-004.pdf.pdf",
             "keywords": ["Horst", "Fabián", "Marcos", "goleada", "dominio Rojo"]
         },
         {
@@ -42,7 +42,7 @@
             "golesRojos": 2,
             "golesAzules": 3,
             "destacado": "Golazo de Carl no alcanza para empatar",
-            "archivo": "boletines/pdfs/boletin-005.pdf",
+            "archivo": "boletines/boletin-005.pdf.pdf",
             "keywords": ["Carl", "golazo", "volea", "Ignacio", "cabezazo"]
         }
     ]
