@@ -1,0 +1,50 @@
+{
+    "boletines": [
+        {
+            "numero": 1,
+            "fecha": "7 de octubre de 2024",
+            "golesRojos": 3,
+            "golesAzules": 6,
+            "destacado": "Debut con lluvia y dominio Azul categórico",
+            "archivo": "boletines/pdfs/boletin-001.pdf",
+            "keywords": ["Gonzalo", "VAR localista", "Edu", "Horst", "Luchito", "Marcos", "Carl", "Joaco", "lluvia", "debut"]
+        },
+        {
+            "numero": 2,
+            "fecha": "14 de octubre de 2024",
+            "golesRojos": 3,
+            "golesAzules": 6,
+            "destacado": "Marcos y Luis: sociedad letal goleadora",
+            "archivo": "boletines/pdfs/boletin-002.pdf",
+            "keywords": ["Marcos", "Luis", "Andrés", "lesión", "goleada"]
+        },
+        {
+            "numero": 3,
+            "fecha": "21 de octubre de 2024",
+            "golesRojos": 4,
+            "golesAzules": 5,
+            "destacado": "Polémico arbitraje anula gol del empate",
+            "archivo": "boletines/pdfs/boletin-003.pdf",
+            "keywords": ["Pato", "gol olímpico", "árbitro", "Fabián", "polémica"]
+        },
+        {
+            "numero": 4,
+            "fecha": "28 de octubre de 2024",
+            "golesRojos": 6,
+            "golesAzules": 3,
+            "destacado": "Horst y Fabián, dupla imparable",
+            "archivo": "boletines/pdfs/boletin-004.pdf",
+            "keywords": ["Horst", "Fabián", "Marcos", "goleada", "dominio Rojo"]
+        },
+        {
+            "numero": 5,
+            "fecha": "4 de noviembre de 2024",
+            "golesRojos": 2,
+            "golesAzules": 3,
+            "destacado": "Golazo de Carl no alcanza para empatar",
+            "archivo": "boletines/pdfs/boletin-005.pdf",
+            "keywords": ["Carl", "golazo", "volea", "Ignacio", "cabezazo"]
+        }
+    ]
+}
+
