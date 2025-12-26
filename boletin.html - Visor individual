@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletín - Diamantes al Anochecer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="volver">← Volver a la biblioteca</a>
+        <h1>Diamantes al Anochecer</h1>
+        <p class="subtitulo" id="boletin-titulo">Boletín Nº</p>
+    </header>
+
+    <main class="container boletin-viewer">
+        <div class="boletin-info" id="boletin-info">
+            <!-- Info del boletín cargada dinámicamente -->
+        </div>
+        
+        <div class="pdf-container">
+            <iframe id="pdf-viewer" src="" frameborder="0"></iframe>
+        </div>
+
+        <div class="navegacion-boletines">
+            <a href="#" id="btn-anterior" class="btn-nav">← Anterior</a>
+            <a href="#" id="btn-descargar" class="btn-descargar" download>Descargar PDF</a>
+            <a href="#" id="btn-siguiente" class="btn-nav">Siguiente →</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Diamantes al Anochecer © 2024</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/boletin.js"></script>
+</body>
+</html>
